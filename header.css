@@ -1,0 +1,46 @@
+.header-section {
+    position: static;
+    top: 0;
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 0px 0px 43px 43px;
+    background: #0D63F3;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.nav, .user-info {
+    flex: 0 1 33%;
+}
+
+.nav-item {
+    margin: auto;
+    cursor: pointer;
+}
+
+.user-info {
+    line-height: 3;
+    text-align: end;
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.user-info>div {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}

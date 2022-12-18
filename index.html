@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" type="text/css" />
+    <link rel="stylesheet" href="helpers.css" type="text/css" />
+    <link rel="stylesheet" href="switch.css" type="text/css" />
+    <link rel="stylesheet" href="header.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="footer.css" type="text/css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <ul class="nav">
+        <li class="nav-item">Events</li>
+        <li class="nav-item">Products</li>
+        <li class="nav-item">Clients</li>
+      </ul>
+      <div class="user-info d-flex">
+        <div class="d-flex mx-10">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-avatar"
+            alt=""
+          />
+        </div>
+        <span class="user-email mx-10">admin@okguru.com</span>
+        <div class="d-flex mx-10">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H9"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M16 17L21 12L16 7"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M21 12H9"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2>Create event</h2>
+      <form type="submit" class="d-flex event-form">
+        <div class="section-left">
+          <div class="section-item">
+            <label for="event-name"><h4>Event name:</h4></label>
+            <input
+              type="text"
+              id="event-name"
+              placeholder="write your event name"
+            />
+          </div>
+          <div class="section-item">
+            <label for="host-name"><h4>Host name:</h4></label>
+            <input
+              type="text"
+              id="host-name"
+              placeholder="write your host name"
+            />
+          </div>
+          <div class="section-item">
+            <label for="date-time"><h4>Date and time</h4></label>
+            <input type="datetime-local" id="date-time" />
+          </div>
+          <div class="section-item">
+            <label for="stream"><h4>Link to Youtube stream</h4></label>
+            <input type="text" id="stream" placeholder="input link" />
+          </div>
+          <div class="section-item">
+            <label for="plug"><h4>Link to plug</h4></label>
+            <input type="text" id="plug" placeholder="input link" />
+          </div>
+          <div class="section-item">
+            <label for="event-button"><h4>Link to button</h4></label>
+            <input type="text" id="event-button" placeholder="input link" />
+          </div>
+        </div>
+        <div class="section-right">
+          <div class="section-item">
+            <h4 for="test" class="mb-10">Event access</h4>
+            <div class="d-flex mb-10">
+              <input type="radio" name="access" id="password-access" />
+              <label for="password-access">password access</label>
+            </div>
+            <div class="d-flex mb-10">
+              <input type="radio" name="access" id="open-access" />
+              <label for="open-access">open</label>
+            </div>
+          </div>
+          <div class="section-item switch">
+            <div class="switch-label">
+              <label for="chat-switch"><h4>Chat on launching event</h4></label>
+            </div>
+            <div>
+              <label class="switch">
+                <input id="chat-switch" type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="section-item switch">
+            <div class="switch-label">
+              <label for="links-switch"
+                ><h4>
+                  Clickable users links <br />
+                  in chat
+                </h4></label
+              >
+            </div>
+            <div>
+              <label class="switch">
+                <input id="links-switch" type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="section-item switch">
+            <div class="switch-label">
+              <label for="basket-switch"><h4>Basket</h4></label>
+            </div>
+            <div>
+              <label class="switch">
+                <input id="basket-switch" type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+          <div class="section-item">
+            <h4 class="mb-10">Presentation</h4>
+            <div class="section-file">
+              <input type="file" id="presentation" />
+              <label for="presentation inter-font"
+                >Download PDF
+
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.75 13.7514L16 19L21.25 13.7514"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16 5V18.9963"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M27 19V26C27 26.2652 26.8946 26.5196 26.7071 26.7071C26.5196 26.8946 26.2652 27 26 27H6C5.73478 27 5.48043 26.8946 5.29289 26.7071C5.10536 26.5196 5 26.2652 5 26V19"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </label>
+            </div>
+          </div>
+          <div class="section-item">
+            <h4>Required fields:</h4>
+            <div class="checkbox-group">
+              <div class="checkbox-label">
+                <input type="checkbox" name="" id="surname" />
+                <label for="surname">Surname</label>
+              </div>
+              <div class="checkbox-label">
+                <input type="checkbox" name="" id="city" />
+                <label for="city">City</label>
+              </div>
+              <div class="checkbox-label">
+                <input type="checkbox" name="" id="email" />
+                <label for="email">Email</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="submit-btn">
+          <button type="submit inter-font">Submit</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p class="footer-mark">Trade Broadcast 2022 ©</p>
+    </footer>
+  </body>
+</html>

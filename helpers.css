@@ -1,0 +1,16 @@
+.inter-font {
+    font-family: 'Inter', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
